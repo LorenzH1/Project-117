@@ -1,0 +1,52 @@
+<html>
+
+<head>
+  <title>Realtime Image Identification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+
+<body background="staff.jpg">
+    <center>
+      <h3 class="w3-btn w3-grey w3-round heading_division1">Realtime Image Identification
+      <hr>
+      <center>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 heading_division2">
+        Model is trained on 
+        <br>
+        <div class="w3-btn w3-grey w3-round heading3">
+          Dad|Mom|Brother
+        </div>
+      </div>
+    </center>
+    <br>
+  </h3>
+  <br>
+  <br>
+  <p class="w3-btn w3-grey w3-round  result">Object:<span id="result_object_name"></span></p>
+  <br>
+  <br>
+  <p class="w3-btn w3-grey w3-round  result">Accuracy:<span id="result_object_accuracy"></span></p>
+  <br>
+  <div id="webcam"></div>
+    </center>
+    <div class="copy_right_footer">
+      Developed By- Lorenz Henry
+    </div>
+
+<script src="main.js"></script>
+</body>
+
+</html>
+
+

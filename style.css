@@ -1,0 +1,35 @@
+.heading_division1{
+    margin: -2px;
+    width: 800px;
+    font-size: 24px;
+    box-shadow: 5px 5px 5px black;
+}
+.heading_division2{
+    float: none;
+    background-color: white;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px red;
+}
+.heading3{
+    font-size: 14px;
+}
+.result{
+    box-shadow: 5px 5px 5px white;
+    font-size: 18px;
+}
+.copy_right_footer{
+    background-color:grey;
+    text-align: center;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    line-height: 3;
+}
+#webcam{
+    border: 3px solid white;
+    width: 310px;
+    height: 150px;
+}
